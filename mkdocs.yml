@@ -1,0 +1,11 @@
+site_name: MagIC High Performance Computing Cluster
+
+nav:
+  - Home: index.md
+  - Hardware: hardware.md
+  - Software: software.md
+  - Database: database.md
+  - Management: management.md
+  - About: about.md
+
+theme: material

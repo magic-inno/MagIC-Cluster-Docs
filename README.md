@@ -22,5 +22,3 @@ conda activate magic-cluster-docs
 # Build and serve documentation
 mkdocs serve
 ```
-
-`
