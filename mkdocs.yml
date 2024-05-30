@@ -5,7 +5,10 @@ nav:
   - Hardware: hardware.md
   - Software: software.md
   - Database: database.md
-  - Management: management.md
+  - Service: service.md
   - About: about.md
 
 theme: material
+
+markdown_extensions:
+  - attr_list
