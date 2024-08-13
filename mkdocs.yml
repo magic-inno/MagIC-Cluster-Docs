@@ -1,14 +1,127 @@
-site_name: MagIC High Performance Computing Cluster
+site_name: MagIC HPC
+site_description: MagIC High Performance Computing Cluster
+site_url: http://10.132.2.151:8000/
+
+repo_url: http://10.132.2.151:3000/magic-academy/MagIC-Cluster-Docs
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+  logo: assets/ornn.jpeg
+  favicon: assets/ornn.png
+
+  palette:
+      # Palette toggle for dark mode
+      - scheme: default
+        primary: white
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+      # Palette toggle for light mode
+      - scheme: slate
+        primary: deep orange
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to light mode
+  features:
+      - content.action.edit
+      - content.action.view
+      - content.code.annotate
+      - content.code.copy
+      - content.tabs.link
+      - content.tooltips
+      - navigation.footer
+      - navigation.instant
+      - navigation.sections
+      - navigation.tabs
+      - navigation.top
+      - navigation.tracking
+      - search.highlight
+      - search.share
+      - search.suggest
+      - toc.follow
+
+extra_css:
+  - stylesheets/neoteroi-mkdocs.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - neoteroi.spantable
+  - neoteroi.cards
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - footnotes
 
 nav:
   - Home: index.md
-  - Hardware: hardware.md
-  - Software: software.md
-  - Database: database.md
-  - Service: service.md
-  - About: about.md
+  - Hardware:
+    - CPU:
+        hardware/cpu.md
+    - GPU:
+        hardware/gpu.md
+    - Memory:
+        hardware/memory.md
+    - Storage:
+        hardware/storage.md
+  - Software:
+      - Linux system:
+          - software/ununtu.md
+          - software/almalinux.md
+      - Command line:
+          - software/bash.md
+          - software/awk.md
+          - software/fd.md
+          - software/ripgrep.md
+          - software/diskus.md
+          - software/visidata.md
+      - software/conda_mamba.md
+  - Pipeline:
+      - pipeline/guide.md
+      - pipeline/snakemake.md
+      - Workflow:
+          - pipeline/quantpi.md
+          - pipeline/metapi.md
+  - Database:
+      - database/guide.md
+      - database/taxonomic_profiling.md
+      - database/functional_profiling.md
+      - database/assembly_and_binning.md
+  - Slurm:
+      - slurm/guide.md
+      - slurm/partition.md
+      - slurm/jobs.md
+  - Service:
+      - service/demultiplex.md
+      - service/archive.md
+  - About:
+      - about.md
 
-theme: material
+extra:
+  homepage: http://10.132.2.151:8000/
+  social:
+    - icon: fontawesome/brands/github
+      link: http://10.132.2.151:3000/magic-academy/MagIC-Cluster-Docs
+      name: MagIC HPC
+  generator: false # hide the line "Made with Material for MkDocs"
 
-markdown_extensions:
-  - attr_list
+copyright: Copyright &copy; 2023-2024 MagIC-Cluster-Docs contributors
