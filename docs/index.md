@@ -5,17 +5,31 @@ layout: home
 hero:
   name: "MagIC Cluster Docs"
   text: "A Documentation for MagIC Cluster"
-  tagline: My great project tagline
+  tagline:
+    Our aim is to empower the microbiome into cutting-edge innovations that will transform
+    the lives of patients and their families.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Slurm
+      link: /slurm
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Database
+      link: /database
+    - theme: alt
+      text: Pipeline
+      link: /pipeline
+    - theme: alt
+      text: Software
+      link: /software
+    - theme: alt
+      text: Hardware
+      link: /hardware
+    - theme: alt
+      text: Service
+      link: /service
 
 features:
-  - title: Feature A
+  - title: Feature
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
