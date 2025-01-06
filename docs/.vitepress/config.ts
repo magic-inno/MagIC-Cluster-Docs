@@ -13,9 +13,11 @@ export default {
   // 主题级选项
   // 通过 themeConfig 选项配置主题的行为
   themeConfig: {
-    logo: "/magic_logo.png",
+    logo: "/logo.png",
 
     // 导航菜单项的配置
+    // text 是 nav 中显示的实际文本，而 link 是单击文本时将导航到的链接。
+    // 对于链接，将路径设置为不带 .md 后缀的实际文件，并且始终以 / 开头
     nav: [
       { text: "Home", link: "/docs/" },
       { text: "Slurm", link: "/docs/slurm" },
@@ -38,6 +40,7 @@ export default {
     sidebar: [
       {
         text: "Guide",
+        collapsed: false,
         items: [
           { text: "Introduction", link: "/docs/introduction" },
           { text: "Getting Started", link: "/docs/getting-started" },
@@ -57,6 +60,14 @@ export default {
     footer: {
       message: "Magic is just science but we don't understand yet.",
       copyright: "© 2025 BY Microbiota I-Center.",
+    },
+
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
     },
   },
 }

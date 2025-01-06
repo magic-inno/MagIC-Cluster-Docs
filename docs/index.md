@@ -8,7 +8,13 @@ hero:
   tagline:
     Our aim is to empower the microbiome into cutting-edge innovations that will transform
     the lives of patients and their families.
+  image:
+    src: /magic_logo.png
+    alt: MagIC-Cluster-Docs
   actions:
+    - theme: brand
+      text: Linux
+      link: /docs/linux
     - theme: brand
       text: Slurm
       link: /docs/slurm
