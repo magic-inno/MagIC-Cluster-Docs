@@ -4,10 +4,12 @@ import { defineConfig } from "vitepress"
 // https://vitepress.dev/reference/site-config
 export default {
   // 站点级选项
+  lang: "en-US",
   title: "MagIC Cluster Docs",
   description: "To play ground with MagIC Cluster",
   base: "/",
   themeConfig: {
+    logo: "/magic_logo.png",
     // https://vitepress.dev/reference/default-theme-config
     // 主题级选项
     // 通过 themeConfig 选项配置主题的行为
