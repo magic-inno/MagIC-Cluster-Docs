@@ -6,6 +6,7 @@ export default {
   // 站点级选项
   title: "MagIC Cluster Docs",
   description: "To play ground with MagIC Cluster",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 主题级选项
