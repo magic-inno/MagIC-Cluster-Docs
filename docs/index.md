@@ -35,10 +35,16 @@ hero:
       link: /docs/service
 
 features:
-  - title: Feature
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: High performance
+    details: SLURM systemd and Lustre storage
+  - title: Reproducible
+    details: Run your bioinformatics pipeline on a reproducible computing environment
+  - title: Automatically
+    details:
+      Run your bioinformatics piepliue using workflow engith which help you to manager
+      jobs
+  - title: Interactively
+    details:
+      Perform interactive data analysis on remote server using Rstudio server or
+      Jupyterlab
 ---
