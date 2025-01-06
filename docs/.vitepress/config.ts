@@ -53,6 +53,11 @@ export default {
         link: "https://hk.linkedin.com/company/microbiota-i-center-magic-limited",
       },
     ],
+
+    footer: {
+      message: "Magic is just science but we don't understand yet.",
+      copyright: "© 2025 BY Microbiota I-Center.",
+    },
   },
 }
 
