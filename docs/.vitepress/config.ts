@@ -8,11 +8,14 @@ export default {
   title: "MagIC Cluster Docs",
   description: "To play ground with MagIC Cluster",
   base: "/",
+
+  // https://vitepress.dev/reference/default-theme-config
+  // 主题级选项
+  // 通过 themeConfig 选项配置主题的行为
   themeConfig: {
     logo: "/magic_logo.png",
-    // https://vitepress.dev/reference/default-theme-config
-    // 主题级选项
-    // 通过 themeConfig 选项配置主题的行为
+
+    // 导航菜单项的配置
     nav: [
       { text: "Home", link: "/docs/" },
       { text: "Slurm", link: "/docs/slurm" },
@@ -21,19 +24,35 @@ export default {
       { text: "Software", link: "/docs/software" },
       { text: "Hardware", link: "/docs/hardware" },
       { text: "Service", link: "/docs/service" },
-    ],
 
-    sidebar: [
       {
-        text: "Examples",
+        text: "More",
         items: [
-          { text: "Markdown Examples", link: "/docs/markdown-examples" },
-          { text: "Runtime API Examples", link: "/docs/api-examples" },
+          { text: "Server Status", link: "/item-1" },
+          { text: "Storage Status", link: "/item-3" },
+          { text: "LLM on MagIC", link: "/item-3" },
         ],
       },
     ],
 
-    socialLinks: [{ icon: "magic", link: "https://www.magic-inno.com/" }],
+    sidebar: [
+      {
+        text: "Guide",
+        items: [
+          { text: "Introduction", link: "/docs/introduction" },
+          { text: "Getting Started", link: "/docs/getting-started" },
+        ],
+      },
+    ],
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/magic-inno" },
+      { icon: "twitter", link: "https://x.com/magic_limited" },
+      {
+        icon: "linkedin",
+        link: "https://hk.linkedin.com/company/microbiota-i-center-magic-limited",
+      },
+    ],
   },
 }
 
