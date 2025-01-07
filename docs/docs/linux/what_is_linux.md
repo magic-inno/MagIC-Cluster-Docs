@@ -62,3 +62,8 @@ kernel with GNU software. It is widely used in various environments and is suppo
 large community of developers and users. Its open-source nature allows for extensive
 customization and innovation, making it a versatile choice for both personal and
 professional use.
+
+## Reference
+
+- [What is Linux](https://bash.cyberciti.biz/guide/What_Is_Linux)
+- [History of Linux](https://en.wikipedia.org/wiki/History_of_Linux)
