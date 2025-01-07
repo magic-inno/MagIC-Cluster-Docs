@@ -2,10 +2,10 @@
 
 [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) is an operating system that
 combines the [Linux](https://en.wikipedia.org/wiki/Linux) kernel with
-[GNU](https://www.gnu.org/home.en.html) software. It is a free and open-source operating
-system, meaning that its source code is available for anyone to view, modify, and
-distribute. GNU/Linux is widely used in various environments, from personal computers to
-servers, supercomputers, and embedded systems.
+[GNU](https://www.gnu.org/home.en.html) software, and many other open-source/free
+software. It is a free and open-source operating system, meaning that its source code is
+available for anyone to view, modify, and distribute. GNU/Linux is widely used in various
+environments, from personal computers to servers, supercomputers, and embedded systems.
 
 ## Key Components
 
