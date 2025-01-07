@@ -25,7 +25,7 @@ export default {
     footer: {
       message: "Magic is just science but we don't understand yet",
       copyright:
-        '© 2025 BY <a href="https://www.magic-inno.com">Microbiota I-Center</a>',
+        '© 2025 BY The Bioinformatics Core Team at <a href="https://www.magic-inno.com">Microbiota I-Center</a>',
     },
 
     lastUpdated: {
