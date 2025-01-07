@@ -66,7 +66,7 @@ echo "Hello, $name!"
 
 - If-Else Statements:
 
-```
+```sh
 if [ condition ]; then
     # commands
 else
@@ -150,7 +150,7 @@ echo "This is a new line" >> filename.txt
 
 Bash supports arrays, which can be useful for storing multiple values.
 
-```
+```sh
 fruits=("apple" "banana" "cherry")
 echo "First fruit: ${fruits[0]}"
 ```
@@ -208,7 +208,7 @@ bash -x script.sh
 
 Functions can be used to modularize your scripts.
 
-```
+```sh
 function say_hello {
     echo "Hello, $1!"
 }
