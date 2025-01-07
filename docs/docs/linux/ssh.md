@@ -9,3 +9,8 @@ provides secure network services by encrypting and verifying network data, even 
 insecure network environments. As a secure alternative to Telnet and other insecure remote
 shell protocols, SSH is now widely used worldwide, with most devices supporting SSH
 functionality. By default, SSH servers use port number 22.
+
+## Reference
+
+- [什么是SSH?](https://info.support.huawei.com/info-finder/encyclopedia/zh/SSH.html)
+- [SSH教程](https://wangdoc.com/ssh/basic)

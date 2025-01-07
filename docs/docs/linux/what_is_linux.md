@@ -67,3 +67,4 @@ professional use.
 
 - [What is Linux](https://bash.cyberciti.biz/guide/What_Is_Linux)
 - [History of Linux](https://en.wikipedia.org/wiki/History_of_Linux)
+- [鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/0110whatislinux.php)
