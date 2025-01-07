@@ -13,26 +13,11 @@ hero:
     alt: MagIC-Cluster-Docs
   actions:
     - theme: brand
-      text: Linux
-      link: /docs/linux
-    - theme: brand
-      text: Slurm
-      link: /docs/slurm
+      text: What is MagIC Cluster?
+      link: /docs/guide/what-is-magic-cluster
     - theme: alt
-      text: Database
-      link: /docs/database
-    - theme: alt
-      text: Pipeline
-      link: /docs/pipeline
-    - theme: alt
-      text: Software
-      link: /docs/software
-    - theme: alt
-      text: Hardware
-      link: /docs/hardware
-    - theme: alt
-      text: Service
-      link: /docs/service
+      text: Quickstart
+      link: /docs/guide/getting-started
 
 features:
   - title: High performance

@@ -1,52 +1,17 @@
-// 配置文件 (.vitepress/config.js) 让你能够自定义 VitePress 站点的各个方面，最基本的选项是站点的标题和描述：
-import { defineConfig } from "vitepress"
+import { defineConfig, type DefaultTheme } from "vitepress"
 
-// https://vitepress.dev/reference/site-config
 export default {
-  // 站点级选项
   lang: "en-US",
   title: "MagIC Cluster Docs",
   description: "To play ground with MagIC Cluster",
   base: "/",
 
-  // https://vitepress.dev/reference/default-theme-config
-  // 主题级选项
-  // 通过 themeConfig 选项配置主题的行为
   themeConfig: {
     logo: "/logo.png",
 
-    // 导航菜单项的配置
-    // text 是 nav 中显示的实际文本，而 link 是单击文本时将导航到的链接。
-    // 对于链接，将路径设置为不带 .md 后缀的实际文件，并且始终以 / 开头
-    nav: [
-      { text: "Home", link: "/docs/" },
-      { text: "Slurm", link: "/docs/slurm" },
-      { text: "Database", link: "/docs/database" },
-      { text: "Pipeline", link: "/docs/pipeline" },
-      { text: "Software", link: "/docs/software" },
-      { text: "Hardware", link: "/docs/hardware" },
-      { text: "Service", link: "/docs/service" },
-
-      {
-        text: "More",
-        items: [
-          { text: "Server Status", link: "/item-1" },
-          { text: "Storage Status", link: "/item-3" },
-          { text: "LLM on MagIC", link: "/item-3" },
-        ],
-      },
-    ],
-
-    sidebar: [
-      {
-        text: "Guide",
-        collapsed: false,
-        items: [
-          { text: "Introduction", link: "/docs/introduction" },
-          { text: "Getting Started", link: "/docs/getting-started" },
-        ],
-      },
-    ],
+    search: {
+      provider: "local",
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/magic-inno" },
@@ -58,8 +23,9 @@ export default {
     ],
 
     footer: {
-      message: "Magic is just science but we don't understand yet.",
-      copyright: "© 2025 BY Microbiota I-Center.",
+      message: "Magic is just science but we don't understand yet",
+      copyright:
+        '© 2025 BY <a href="https://www.magic-inno.com">Microbiota I-Center</a>',
     },
 
     lastUpdated: {
@@ -69,16 +35,98 @@ export default {
         timeStyle: "medium",
       },
     },
+
+    nav: nav(),
+
+    sidebar: {
+      "/docs/guide/": { base: "/docs/guide/", items: sidebarGuide() },
+      "/docs/linux/": { base: "/docs/linux/", items: sidebarLinux() },
+      "/slurm/": { base: "/docs/slurm/", items: sidebarSlurm() },
+      "/database/": { base: "/docs/database/" },
+      "/pipeline/": { base: "/docs/pipeline/" },
+      "/software/": { base: "/docs/software/" },
+      "/hardware/": { base: "/docs/hardware/" },
+      service: { base: "docs/service" },
+    },
   },
 }
 
-// 源文件
-// .vitepress 目录之外的 Markdown 文件被视为源文件。
-// VitePress 使用 基于文件的路由：每个 .md 文件将在相同的路径被编译成为 .html 文件
-// 例如，index.md 将会被编译成 index.html，可以在生成的 VitePress 站点的根路径 / 进行访问。
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: "Home",
+      link: "/docs/guide/what-is-magic-cluster",
+      activeMatch: "/docs/guide/",
+    },
+    { text: "Linux", link: "/docs/linux/what-is-linux", activeMatch: "/docs/linux/" },
+    { text: "Slurm", link: "/docs/slurm/what-is-slurm", activeMatch: "/docs/slurm/" },
+    { text: "Database", link: "/docs/database", activeMatch: "/docs/database/" },
+    { text: "Pipeline", link: "/docs/pipeline", activeMatch: "/docs/pipeline/" },
+    { text: "Software", link: "/docs/software", activeMatch: "/docs/software/" },
+    { text: "Hardware", link: "/docs/hardware", activeMatch: "/docs/hardware/" },
+    { text: "Service", link: "/docs/service", activeMatch: "/docs/service/" },
+    {
+      text: "More",
+      items: [
+        { text: "Server Status", link: "/monitor/server-status" },
+        { text: "Storage Status", link: "/monitor/storage-status" },
+        { text: "LLM on MagIC", link: "/llm" },
+      ],
+    },
+  ]
+}
 
-// 项目根目录
-// 项目根目录是 VitePress 将尝试寻找 .vitepress 特殊目录的地方。
-// .vitepress 目录是 VitePress 配置文件、开发服务器缓存、构建输出和可选主题自定义代码的预留位置。
-// 当从命令行运行 vitepress dev 或 vitepress build 时，VitePress 将使用当前工作目录作为项目根目录。
-// 要将子目录指定为根目录，需要将相对路径传递给命令。例如，如果 VitePress 项目位于 ./docs，应该运行 vitepress dev docs：
+function sidebarGuide(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Introduction",
+      collapsed: false,
+      items: [
+        { text: "What is MagIC-Cluster", link: "what-is-magic-cluster" },
+        { text: "Getting started", link: "getting-started" },
+      ],
+    },
+  ]
+}
+
+function sidebarLinux(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Introduction",
+      collapsed: false,
+      items: [
+        { text: "What is GNU/Linux System?", link: "what-is-linux" },
+        { text: "Shell", link: "shell" },
+        { text: "SSH", link: "ssh" },
+        { text: "Tools", link: "tools" },
+      ],
+    },
+    {
+      text: "Bioinformatics commandline",
+      collapsed: false,
+      items: [{ text: "Bioinformatics CLI", link: "bio-cli" }],
+    },
+  ]
+}
+
+function sidebarSlurm(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Slurm",
+      collapsed: false,
+      items: [
+        { text: "What is SLURM System?", link: "what-is-slurm" },
+        { text: "Partition", link: "slurm-partition" },
+        { text: "Jobs", link: "slurm-jobs" },
+      ],
+    },
+    {
+      text: "Lustre",
+      collapsed: false,
+      items: [
+        { text: "What is Lustre System?", link: "what-is-lustre" },
+        { text: "Quota", link: "lustre-quota" },
+      ],
+    },
+  ]
+}
