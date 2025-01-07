@@ -7,9 +7,9 @@
 
 - Computer with SSH Client: Ensure you have
   [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) installed on your computer. You can use
-  terminal emulator like [Ghostty] (https://github.com/ghostty-org/ghostty),
+  terminal emulator like [Ghostty](https://github.com/ghostty-org/ghostty),
   [Windows Terminal](https://github.com/microsoft/terminal),
-  (iTerm2)[https://iterm2.com/], or GUI application with many features such as
+  [iTerm2][https://iterm2.com/], or GUI application with many features such as
   [Putty](https://www.putty.org/) or [mobaXterm](https://mobaxterm.mobatek.net/).
 
 ## Login
