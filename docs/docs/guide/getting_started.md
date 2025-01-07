@@ -57,3 +57,10 @@ Want to try it out? Go to the [Slurm + Lustre](../database/).
 Want to try it out? Go to the [Slurm + Lustre](../pipeline/).
 
 </div>
+
+## Disclaimers
+
+This documentation is a compilation of our experiences with Linux, Slurm, Lustre, and
+bioinformatics data skills. It is intended for reference purposes only. If you find any
+inaccuracies or have suggestions, please feel free to contact a member of the
+bioinformatics core team.

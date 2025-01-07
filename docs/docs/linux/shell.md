@@ -1,15 +1,16 @@
 # Shell Scripting
 
-Shell scripting is an essential skill for anyone working with Linux. It allows you to
-automate tasks, manage system configurations, and streamline workflows. This document
-provides a comprehensive guide to Linux shell scripting, with a detailed focus on the Bash
-shell.
+[Shell scripting](<https://en.wikipedia.org/wiki/Shell_(computing)>) is an essential skill
+for anyone working with Linux. It allows you to automate tasks, manage system
+configurations, and streamline workflows. This document provides a comprehensive guide to
+Linux shell scripting, with a detailed focus on the Bash shell.
 
 ## Introduction to Bash
 
-Bash (Bourne Again SHell) is the most widely used shell in Linux. It is a command
-processor that typically runs in a text window, allowing users to execute commands by
-typing them in. Bash is known for its robustness, flexibility, and extensive feature set.
+[Bash (Bourne Again SHell)](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) is the most
+widely used shell in Linux. It is a command processor that typically runs in a text
+window, allowing users to execute commands by typing them in. Bash is known for its
+robustness, flexibility, and extensive feature set.
 
 ## Basic Usage of Bash
 
@@ -261,11 +262,4 @@ This is a here document.
 EOF
 ```
 
-## Conclusion
-
-Shell scripting is a essential skill for anyone working with Linux. Bash is the most
-commonly used shell, but Zsh and Fish offer additional features and user-friendly
-interfaces. Each shell has its own strengths, and choosing the right one depends on your
-specific needs and preferences. This guide provides a comprehensive overview of Bash
-scripting, covering basic to advanced topics to help you become proficient in shell
-scripting.
+## Reference
