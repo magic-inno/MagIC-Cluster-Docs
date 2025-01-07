@@ -20,15 +20,19 @@ hero:
       link: /docs/guide/getting-started
 
 features:
-  - title: High performance
+  - icon: 🚀
+    title: High performance
     details: SLURM systemd and Lustre storage
-  - title: Reproducible
+  - icon: ⌛
+    title: Reproducible
     details: Run your bioinformatics pipeline on a reproducible computing environment
-  - title: Automatically
+  - icon: 🐍
+    title: Automatically
     details:
       Run your bioinformatics piepliue using workflow engith which help you to manager
       jobs
-  - title: Interactively
+  - icon: 📝
+    title: Interactively
     details:
       Perform interactive data analysis on remote server using Rstudio server or
       Jupyterlab
