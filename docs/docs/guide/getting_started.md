@@ -20,7 +20,7 @@ ssh your-account-name@server-ip
 Replace your-account-name with your actual account name and server-ip with the IP address
 of the server.
 
-## How to survive?
+## How to play?
 
 ### Understand the Linux system and bioinformatics data skill
 
