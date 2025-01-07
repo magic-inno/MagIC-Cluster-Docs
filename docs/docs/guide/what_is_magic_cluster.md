@@ -15,6 +15,12 @@ With the **Slurm + Lustre** architecture, we can quickly request and utilize com
 resources, enabling faster data processing and analysis. This accelerates scientific
 research and discovery.
 
+<div class="tip custom-block" style="padding-top: 8px">
+
+Just want to try it out? Skip to the [Quickstart](./getting-started).
+
+</div>
+
 ## Use Cases
 
 - **Data Preprocess** Metagenomics data preprocessing is a critical step in the analysis
@@ -22,10 +28,14 @@ research and discovery.
   sequencing data is cleaned, filtered, and prepared for downstream analysis. Here are the
   key steps typically involved in metagenomics data preprocessing:
 
-  - Quality Control: Raw Data Inspection: Assess the quality of the raw sequencing reads
-    using tools like FastQC. Adapter Trimming: Remove sequencing adapters and low-quality
-    bases from the reads using tools like Trimmomatic or Cutadapt. Quality Filtering:
-    Filter out low-quality reads and bases to improve the overall quality of the data.
+  - Quality Control:
+
+    - Raw Data Inspection: Assess the quality of the raw sequencing reads using tools like
+      FastQC.
+    - Adapter Trimming: Remove sequencing adapters and low-quality bases from the reads
+      using tools like Trimmomatic or Cutadapt.
+    - Quality Filtering: Filter out low-quality reads and bases to improve the overall
+      quality of the data.
 
   - Host Contamination Removal: Remove reads that map to the host genome (e.g., human
     genome in human microbiome studies) using tools like Bowtie2 or BWA. This step ensures
