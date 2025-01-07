@@ -2,14 +2,15 @@
 
 ## Prerequisites
 
-- MagIC Server Account: Send an email to the Bioinformatics Core Team to request a server
-  account. CC your team's Principal Investigator (PI) in the email.
+- MagIC Server Account: Send an email to
+  [the Bioinformatics Core Team](mailto:jiezhu@magic-inno.hk,yepeng@magic-inno.hk,luluxu@magic-inno.hk,cpcheung@magic-inno.hk,heinmtun@magic-inno.hk)
+  to request a server account. CC your team's Principal Investigator (PI) in the email.
 
 - Computer with SSH Client: Ensure you have
   [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) installed on your computer. You can use
   terminal emulator like [Ghostty](https://github.com/ghostty-org/ghostty),
   [Windows Terminal](https://github.com/microsoft/terminal),
-  [iTerm2][https://iterm2.com/], or GUI application with many features such as
+  [iTerm2](https://iterm2.com/), or GUI application with many features such as
   [Putty](https://www.putty.org/) or [mobaXterm](https://mobaxterm.mobatek.net/).
 
 ## Login
