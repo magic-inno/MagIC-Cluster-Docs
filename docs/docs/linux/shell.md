@@ -262,4 +262,12 @@ This is a here document.
 EOF
 ```
 
+## Ask for help
+
+If you encounter any shell command that you don't understand, you can visit
+https://explainshell.com/ for help.
+
 ## Reference
+
+- [Shell 编程](https://shellscript.readthedocs.io/zh-cn/latest/)
+- [Bash 脚本教程](https://wangdoc.com/bash/intro)
