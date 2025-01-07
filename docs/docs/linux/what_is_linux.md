@@ -1,10 +1,4 @@
-# GNU/Linux
-
-Often, we refer to the system simply as "Linux," but in reality, Linux is just the name of
-the operating system's kernel. The operating system we use today is built on the Linux
-kernel and includes software from the GNU Project, as well as other open-source software.
-
-## What is GNU/Linux?
+# What is GNU/Linux?
 
 [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) is an operating system that
 combines the [Linux](https://en.wikipedia.org/wiki/Linux) kernel with
@@ -13,7 +7,7 @@ system, meaning that its source code is available for anyone to view, modify, an
 distribute. GNU/Linux is widely used in various environments, from personal computers to
 servers, supercomputers, and embedded systems.
 
-### Key Components
+## Key Components
 
 - Linux Kernel: The core part of the operating system that manages hardware resources and
   provides basic system services. Developed by Linus Torvalds and a global community of
@@ -23,7 +17,7 @@ servers, supercomputers, and embedded systems.
   Project. Includes essential components like the GNU Compiler Collection (GCC), the GNU C
   Library (glibc), and various command-line tools.
 
-### Features of GNU/Linux
+## Features of GNU/Linux
 
 - Open Source: The source code is freely available, allowing users to study, modify, and
   distribute the software.
@@ -43,7 +37,7 @@ servers, supercomputers, and embedded systems.
   distribution, focused on long-term stability, providing a robust production-grade
   platform. AlmaLinux OS is binary compatible with RHEL®._
 
-### Uses of GNU/Linux
+## Uses of GNU/Linux
 
 - Desktop Environments: Used as a desktop operating system with user-friendly interfaces
   like GNOME, KDE, and Xfce.
