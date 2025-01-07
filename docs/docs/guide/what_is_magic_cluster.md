@@ -17,7 +17,7 @@ research and discovery.
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Quickstart](./getting-started).
+Just want to try it out? Skip to the [Quickstart](./getting_started).
 
 </div>
 
