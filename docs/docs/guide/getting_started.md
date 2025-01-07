@@ -26,7 +26,7 @@ of the server.
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Linux + Bioinfo](../linux/what_is_linux).
+Want to try it out? Go to the [Linux + Bioinfo](../linux/what_is_linux).
 
 </div>
 
@@ -34,7 +34,7 @@ Just want to try it out? Skip to the [Linux + Bioinfo](../linux/what_is_linux).
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Slurm + Lustre](../slurm/what_is_slurm).
+Want to try it out? Go to the [Slurm + Lustre](../slurm/what_is_slurm).
 
 </div>
 
@@ -42,7 +42,7 @@ Just want to try it out? Skip to the [Slurm + Lustre](../slurm/what_is_slurm).
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Slurm + Lustre](../database/).
+Want to try it out? Go to the [Slurm + Lustre](../database/).
 
 </div>
 
@@ -50,6 +50,6 @@ Just want to try it out? Skip to the [Slurm + Lustre](../database/).
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to try it out? Skip to the [Slurm + Lustre](../pipeline/).
+Want to try it out? Go to the [Slurm + Lustre](../pipeline/).
 
 </div>
