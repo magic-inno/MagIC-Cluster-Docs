@@ -19,3 +19,37 @@ ssh your-account-name@server-ip
 
 Replace your-account-name with your actual account name and server-ip with the IP address
 of the server.
+
+## How to survive?
+
+### Understand the Linux system and bioinformatics data skill
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+Just want to try it out? Skip to the [Linux + Bioinfo](../linux/what_is_linux).
+
+</div>
+
+### Understand the Slurm and Lustre system
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+Just want to try it out? Skip to the [Slurm + Lustre](../slurm/what_is_slurm).
+
+</div>
+
+### Understand the bioinformatics database
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+Just want to try it out? Skip to the [Slurm + Lustre](../database/).
+
+</div>
+
+### Understand the bioinformatics pipeline
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+Just want to try it out? Skip to the [Slurm + Lustre](../pipeline/).
+
+</div>

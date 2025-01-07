@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: What is MagIC Cluster?
-      link: /docs/guide/what-is-magic-cluster
+      link: /docs/guide/what_is_magic_cluster
     - theme: alt
       text: Quickstart
-      link: /docs/guide/getting-started
+      link: /docs/guide/getting_started
 
 features:
   - icon: 🚀

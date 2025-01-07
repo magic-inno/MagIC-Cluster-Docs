@@ -59,10 +59,10 @@ function nav(): DefaultTheme.NavItem[] {
     },
     { text: "Linux", link: "/docs/linux/what_is_linux", activeMatch: "/docs/linux/" },
     { text: "Slurm", link: "/docs/slurm/what_is_slurm", activeMatch: "/docs/slurm/" },
-    { text: "Database", link: "/docs/database", activeMatch: "/docs/database/" },
-    { text: "Pipeline", link: "/docs/pipeline", activeMatch: "/docs/pipeline/" },
-    { text: "Hardware", link: "/docs/hardware", activeMatch: "/docs/hardware/" },
-    { text: "Service", link: "/docs/service", activeMatch: "/docs/service/" },
+    { text: "Database", link: "/docs/database/", activeMatch: "/docs/database/" },
+    { text: "Pipeline", link: "/docs/pipeline/", activeMatch: "/docs/pipeline/" },
+    { text: "Hardware", link: "/docs/hardware/", activeMatch: "/docs/hardware/" },
+    { text: "Service", link: "/docs/service/", activeMatch: "/docs/service/" },
     {
       text: "More",
       items: [
