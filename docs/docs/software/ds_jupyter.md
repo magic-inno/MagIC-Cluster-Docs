@@ -14,15 +14,15 @@ widely used in data science, scientific research, and education.
 ## Installation
 
 ```sh
-pip install notebook jupyter jupyterlab
+λ pip install notebook jupyter jupyterlab
 
 # or
-mamba install notebook jupyter jupyterlab
+λ mamba install notebook jupyter jupyterlab
 
 # or
-pixi init env-jupyter
-cd env-jupyter
-pixi add notebook jupyter jupyterlab
+λ pixi init env-jupyter
+λ cd env-jupyter
+λ pixi add notebook jupyter jupyterlab
 ```
 
 ## Configuration
@@ -32,7 +32,7 @@ pixi add notebook jupyter jupyterlab
 If you haven't already generated a Jupyter configuration file, you can do so by running:
 
 ```sh
-jupyter notebook --generate-config
+λ jupyter notebook --generate-config
 ```
 
 This command will create a configuration file at ~/.jupyter/jupyter_notebook_config.py.
@@ -42,7 +42,7 @@ Setting the Port
   editor:
 
 ```sh
-vim ~/.jupyter/jupyter_notebook_config.py
+λ ~/.jupyter/jupyter_notebook_config.py
 ```
 
 Find the line that sets the port (it will be commented out by default). Uncomment it and
@@ -67,7 +67,10 @@ To set a static password for Jupyter Notebook, you need to generate a hashed pas
 can do this using the IPython shell:
 
 ```sh
-python -c "from notebook.auth import passwd; print(passwd('your_password'))"
+λ jupyter notebook password
+Enter password: ********
+Verify password: ********
+[JupyterPasswordApp] Wrote hashed password to /home/username/.jupyter/jupyter_server_config.json
 ```
 
 Replace 'your_password' with your desired password. This command will output a hashed
@@ -91,10 +94,10 @@ c.NotebookApp.password = 'sha1:your_hashed_password'
 ## Running Jupyter Notebook
 
 ```sh
-jupyter notebook
+λ jupyter notebook
 
 # or
-jupyter lab
+λ jupyter lab
 ```
 
 ## Connect it
@@ -108,7 +111,7 @@ If you can't connect remote_server directly by 8888 port, you may need to do SSH
 forwarding.
 
 ```sh
-ssh -L 8888:localhost:8888 username@remote_server_ip
+λ ssh -L 8888:localhost:8888 username@remote_server_ip
 ```
 
 Access Jupyter Notebook: Open a web browser and go to http://localhost:8888. You should
