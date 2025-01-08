@@ -8,7 +8,7 @@ encryption to ensure that all data transmitted between the client and the server
 confidential and secure. SSH is commonly used for remote login, file transfers, and secure
 tunneling.
 
-### Password Login
+## Password Login
 
 Password login is the simplest method to connect to a remote server using SSH. Here are
 the steps to log in using a password:
@@ -30,7 +30,7 @@ Example:
 ssh user@10.132.2.147
 ```
 
-### Key Generation
+## Key Generation
 
 Generating SSH keys is a more secure method for logging into remote servers. Here’s how to
 generate SSH keys:
@@ -55,7 +55,7 @@ Save the Key: When prompted, press Enter to save the key in the default location
 
 - Set a Passphrase: Optionally, you can set a passphrase for added security.
 
-### Key Copy
+## Key Copy
 
 After generating the SSH key pair, you need to copy the public key to the remote server.
 Here’s how to do it:
@@ -93,7 +93,7 @@ echo "your_public_key" >> ~/.ssh/authorized_keys
 
 Replace your_public_key with the content you copied earlier.
 
-### Public Key Login
+## Public Key Login
 
 Once the public key is copied to the remote server, you can log in using the SSH key:
 
@@ -106,13 +106,13 @@ ssh username@remote_host
 
 If you set a passphrase during key generation, you will be prompted to enter it.
 
-### SSH Forwarding
+## SSH Forwarding
 
 SSH forwarding allows you to securely tunnel network traffic through an SSH connection.
 This is useful for accessing services running on a remote server, such as RStudio Server
 and Jupyter.
 
-#### SSH Forwarding for RStudio Server
+### SSH Forwarding for RStudio Server
 
 - Open a Terminal: On your local machine, open a terminal window. SSH Command with Port
 - Forwarding: Use the following command to forward a local port to the remote RStudio
@@ -132,7 +132,7 @@ ssh -L 8787:localhost:8787 username@remote_host
 - Access RStudio Server: Open a web browser and go to http://localhost:8787. You should
   see the RStudio Server login page.
 
-#### SSH Forwarding for Jupyter
+### SSH Forwarding for Jupyter
 
 - Open a Terminal: On your local machine, open a terminal window. SSH Command with Port
 - Forwarding: Use the following command to forward a local port to the remote Jupyter
@@ -152,7 +152,7 @@ sh -L 8888:localhost:8888 username@remote_host
 - Access Jupyter: Open a web browser and go to http://localhost:8888. You should see the
   Jupyter login page.
 
-### Writing an SSH Config File
+## Writing an SSH Config File
 
 An SSH config file allows you to simplify and streamline your SSH connections by defining
 aliases and default settings. Here’s how to write an SSH config file:
@@ -180,7 +180,7 @@ Host headnode1
 ssh headnode1
 ```
 
-### Autossh Forwarding
+## Autossh Forwarding
 
 Autossh is a tool that automatically restarts SSH sessions and tunnels. It is useful for
 maintaining persistent SSH connections, especially for port forwarding. Here’s how to use
