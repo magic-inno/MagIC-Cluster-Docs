@@ -102,9 +102,12 @@ function sidebarLinux(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Bioinformatics commandline",
+      text: "Bioinformatics Data Skill",
       collapsed: false,
-      items: [{ text: "Bioinformatics CLI", link: "bio_cli" }],
+      items: [
+        { text: "Process fastq", link: "bio_fastq" },
+        { text: "Process profile", link: "bio_profile" },
+      ],
     },
   ]
 }
@@ -136,22 +139,30 @@ function sidebarSoftware(): DefaultTheme.SidebarItem[] {
     {
       text: "Data Preprocess",
       collapsed: false,
-      items: [{ text: "env-qc", link: "env_qc" }],
+      items: [{ text: "Environment Preprocess", link: "env_qc" }],
     },
     {
       text: "Ampliction Process",
       collapsed: false,
-      items: [{ text: "env-qiime", link: "env_qiime" }],
+      items: [{ text: "Environment QIIME2", link: "env_qiime" }],
     },
     {
       text: "Metagenomics Profiling",
       collapsed: false,
       items: [
-        { text: "env-bioenv", link: "env_bioenv" },
-        { text: "env-biobakery", link: "env_biobakery" },
-        { text: "env-kraken", link: "env_kraken" },
-        { text: "env-phanta", link: "env_phanta" },
-        { text: "env-magic", link: "env_magic" },
+        { text: "Environment Bioenv", link: "env_bioenv" },
+        { text: "Environment Biobakery", link: "env_biobakery" },
+        { text: "Environment Kraken", link: "env_kraken" },
+        { text: "Environment Phanta", link: "env_phanta" },
+        { text: "Environment Magic", link: "env_magic" },
+      ],
+    },
+    {
+      text: "Interactive Data Analysis",
+      collapsed: false,
+      items: [
+        { text: "Rstudio", link: "ds_rstudio" },
+        { text: "Jupyter", link: "ds_jupyter" },
       ],
     },
   ]
