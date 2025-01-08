@@ -1,13 +1,35 @@
-# top/htop
+# Tools
 
-# awk
+## top
 
-# sed
+top and htop are both system monitoring tools used to display real-time information about
+the processes running on a Linux system. While top is a traditional command-line tool,
+htop provides a more user-friendly, interactive interface.
 
-# cut
+### Basic Usage
 
-# bat/cat
+To start top, simply open a terminal and type:
 
-# find/fd
+```sh
+top
+```
 
-# grep/ripgrep
+## htop
+
+## awk
+
+## sed
+
+## cut
+
+## cat
+
+## bat
+
+## find
+
+## fd
+
+## grep
+
+## ripgrep

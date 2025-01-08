@@ -43,6 +43,7 @@ export default {
       "/docs/linux/": { base: "/docs/linux/", items: sidebarLinux() },
       "/docs/slurm/": { base: "/docs/slurm/", items: sidebarSlurm() },
       "/docs/database/": { base: "/docs/database/", items: sidebarDatabase() },
+      "/docs/software/": { base: "/docs/software/", items: sidebarSoftware() },
       "/docs/pipeline/": { base: "/docs/pipeline/", items: sidebarPipeline() },
       "/docs/hardware/": { base: "/docs/hardware/", items: sidebarHardware() },
       "/docs/service/": { base: "docs/service", items: sidebarService() },
@@ -60,6 +61,7 @@ function nav(): DefaultTheme.NavItem[] {
     { text: "Linux", link: "/docs/linux/what_is_linux", activeMatch: "/docs/linux/" },
     { text: "Slurm", link: "/docs/slurm/what_is_slurm", activeMatch: "/docs/slurm/" },
     { text: "Database", link: "/docs/database/", activeMatch: "/docs/database/" },
+    { text: "Software", link: "/docs/software/", activeMatch: "/docs/software/" },
     { text: "Pipeline", link: "/docs/pipeline/", activeMatch: "/docs/pipeline/" },
     { text: "Hardware", link: "/docs/hardware/", activeMatch: "/docs/hardware/" },
     { text: "Service", link: "/docs/service/", activeMatch: "/docs/service/" },
@@ -124,6 +126,32 @@ function sidebarSlurm(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "What is Lustre System?", link: "what_is_lustre" },
         { text: "Quota", link: "lustre_quota" },
+      ],
+    },
+  ]
+}
+
+function sidebarSoftware(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Data Preprocess",
+      collapsed: false,
+      items: [{ text: "env-qc", link: "env_qc" }],
+    },
+    {
+      text: "Ampliction Process",
+      collapsed: false,
+      items: [{ text: "env-qiime", link: "env_qiime" }],
+    },
+    {
+      text: "Metagenomics Profiling",
+      collapsed: false,
+      items: [
+        { text: "env-bioenv", link: "env_bioenv" },
+        { text: "env-biobakery", link: "env_biobakery" },
+        { text: "env-kraken", link: "env_kraken" },
+        { text: "env-phanta", link: "env_phanta" },
+        { text: "env-magic", link: "env_magic" },
       ],
     },
   ]
