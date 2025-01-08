@@ -42,9 +42,13 @@ generate SSH keys:
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-::: tip -t rsa: Specifies the type of key to create, in this case, RSA. -b 4096: Specifies
-the number of bits in the key, in this case, 4096 bits. -C "your_email@example.com": Adds
-a label to the key, usually your email address. :::
+::: tip
+
+- -t rsa: Specifies the type of key to create, in this case, RSA.
+- -b 4096: Specifies the number of bits in the key, in this case, 4096 bits.
+- -C "your_email@example.com": Adds a label to the key, usually your email address.
+
+:::
 
 Save the Key: When prompted, press Enter to save the key in the default location
 (~/.ssh/id_rsa). You can also specify a different file path if needed.
@@ -118,9 +122,13 @@ and Jupyter.
 ssh -L 8787:localhost:8787 username@remote_host
 ```
 
-::: tip -L 8787:localhost:8787: Forwards local port 8787 to port 8787 on the remote
-server. Rstudio server use 8787 as default port. Access RStudio Server: Open a web browser
-and go to http://localhost:8787. You should see the RStudio Server login page. :::
+::: tip
+
+- -L 8787:localhost:8787: Forwards local port 8787 to port 8787 on the remote server.
+  Rstudio server use 8787 as default port. :::
+
+- Access RStudio Server: Open a web browser and go to http://localhost:8787. You should
+  see the RStudio Server login page.
 
 #### SSH Forwarding for Jupyter
 
@@ -132,8 +140,10 @@ and go to http://localhost:8787. You should see the RStudio Server login page. :
 sh -L 8888:localhost:8888 username@remote_host
 ```
 
-::: tip -L 8888:localhost:8888: Forwards local port 8888 to port 8888 on the remote
-server. Jupyter server use 8888 as default port. :::
+::: tip
+
+- -L 8888:localhost:8888: Forwards local port 8888 to port 8888 on the remote server.
+  Jupyter server use 8888 as default port. :::
 
 - Access Jupyter: Open a web browser and go to http://localhost:8888. You should see the
   Jupyter login page.
@@ -179,8 +189,11 @@ autossh for forwarding:
 autossh -M 0 -N -L 8787:localhost:8787 username@remote_host
 ```
 
-::: tip -M 0: Disables the monitoring port. -N: Do not execute a remote command. -L
-8787:localhost:8787: Forwards local port 8787 to port 8787 on the remote server. :::
+::: tip
+
+- -M 0: Disables the monitoring port.
+- -N: Do not execute a remote command.
+- -L 8787:localhost:8787: Forwards local port 8787 to port 8787 on the remote server. :::
 
 - Advanced Usage with Monitoring Port: To use a monitoring port for better reliability:
 
@@ -188,7 +201,9 @@ autossh -M 0 -N -L 8787:localhost:8787 username@remote_host
 autossh -M 20000 -N -L 8787:localhost:8787 username@remote_host
 ```
 
-::: tip -M 20000: Specifies the monitoring port (20000 in this case). :::
+::: tip
+
+- -M 20000: Specifies the monitoring port (20000 in this case). :::
 
 Using Autossh with SSH Config: You can also use autossh with your SSH config file. For
 example:
