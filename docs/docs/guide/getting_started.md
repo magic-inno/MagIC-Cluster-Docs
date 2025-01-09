@@ -46,7 +46,15 @@ Want to try it out? Go to the [Slurm + Lustre](../slurm/what_is_slurm).
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Want to try it out? Go to the [Slurm + Lustre](../database/).
+Want to try it out? Go to the [Database](../database/).
+
+</div>
+
+### Understand the bioinformatics software
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+Want to try it out? Go to the [Software](../software/).
 
 </div>
 
@@ -54,7 +62,7 @@ Want to try it out? Go to the [Slurm + Lustre](../database/).
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Want to try it out? Go to the [Slurm + Lustre](../pipeline/).
+Want to try it out? Go to the [Pipeline](../pipeline/).
 
 </div>
 

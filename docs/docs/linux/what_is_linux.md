@@ -1,5 +1,10 @@
 # What is GNU/Linux?
 
+ <div style="display: flex; justify-content: space-between;">
+  <img src="../../static/linux_logo_kernel.png" alt="jupyter_logo" style="width: 30%;">
+  <img src="../../static/linux_logo_gnu.png" alt="jupyter_lab" style="width: 70%;">
+</div>
+
 [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) is an operating system that
 combines the [Linux](https://en.wikipedia.org/wiki/Linux) kernel with
 [GNU](https://www.gnu.org/home.en.html) software, and many other open-source/free

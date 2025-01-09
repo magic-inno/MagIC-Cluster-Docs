@@ -14,6 +14,8 @@ To start top, simply open a terminal and type:
 top
 ```
 
+![](../../static/linux_tools_top.png)
+
 ## htop
 
 ## awk

@@ -9,7 +9,7 @@ hero:
     Our aim is to empower the microbiome into cutting-edge innovations that will transform
     the lives of patients and their families.
   image:
-    src: /magic_logo.png
+    src: /static/magic_logo_big.png
     alt: MagIC-Cluster-Docs
   actions:
     - theme: brand

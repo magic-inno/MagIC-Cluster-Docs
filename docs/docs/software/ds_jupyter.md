@@ -1,8 +1,8 @@
 # Jupyter
 
  <div style="display: flex; justify-content: space-between;">
-  <img src="./jupyter.svg" alt="jupyter_logo" style="width: 30%;">
-  <img src="./jupyter.webp" alt="jupyter_lab" style="width: 70%;">
+  <img src="../../static/software_jupyter.svg" alt="jupyter_logo" style="width: 30%;">
+  <img src="../../static/software_jupyter.webp" alt="jupyter_lab" style="width: 70%;">
 </div>
 
 ## Introduction
