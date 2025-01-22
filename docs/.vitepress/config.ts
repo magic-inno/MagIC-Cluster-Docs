@@ -7,7 +7,7 @@ export default {
   base: "/",
 
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/static/magic_logo_small.png",
 
     search: {
       provider: "local",

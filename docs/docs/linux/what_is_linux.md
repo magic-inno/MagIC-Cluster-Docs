@@ -1,8 +1,8 @@
 # What is GNU/Linux?
 
  <div style="display: flex; justify-content: space-between;">
-  <img src="../../static/linux_logo_kernel.png" alt="jupyter_logo" style="width: 30%;">
-  <img src="../../static/linux_logo_gnu.png" alt="jupyter_lab" style="width: 70%;">
+  <img src="../../static/linux_logo_kernel.png" alt="linux_kernel" style="width: 40%;">
+  <img src="../../static/linux_logo_gnu.png" alt="linux_gnu" style="width: 50%;">
 </div>
 
 [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) is an operating system that
